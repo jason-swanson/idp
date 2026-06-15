@@ -142,6 +142,7 @@ class Measure:
     maximum of the bandwidths of the summands.
 
     '''
+
     def __init__(self, cdf, pdf, mean=None, totalMass=1):
         '''Constructs a `Measure` object from the given arguments.
 
